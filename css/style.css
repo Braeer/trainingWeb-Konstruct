@@ -6,6 +6,7 @@ html {
 :root {
   --accent-color: #00A4E5;
   --gray-color: #48555B;
+  --black-color: #171819;
 }
 img {
   display: block;
@@ -264,3 +265,103 @@ body {
   letter-spacing: 0.188px;
   max-width: 256px;
 }
+
+
+
+
+
+.get-in-touch {
+  background-image: url(../images/bg2.png);
+  height: 498px;
+}
+.get-in-touch .container {
+}
+.get-in-touch__h1 {
+  padding-top: 120px;
+  padding-bottom: 34px;
+  margin: 0 auto;
+  max-width: 350px;
+  color: var(--gray-color);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px; /* 120% */
+  letter-spacing: 0.15px;
+}
+.get-in-touch__button {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 40px;
+  background-color: var(--accent-color);
+  color: #FFF;
+  border: none;
+}
+.get-in-touch__h1 p {
+  color: #FFF;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+
+.newsletter {
+  background-color: var(--black-color);
+}
+.newsletter .container {
+  max-width: 685px;
+}
+.newsletter__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter__h1 {
+  padding-top: 35px;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.846px;
+}
+.newsletter__grid {
+  padding-top: 30px;
+  display: flex;
+  padding-bottom: 29px;
+}
+.newsletter__form {
+
+}
+.newsletter__input {
+  width: 250px;
+  height: 40px;
+  border: 1px solid #979797;
+  background: #FFF;
+}
+.newsletter__button {
+  width: 150px;
+  height: 40px;
+  background-color: var(--accent-color);
+  color: #FFF;
+  border: none;
+}
+.newsletter__button p {
+  color: #FFF;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  
+}
+.newsletter__input::placeholder {
+  color: var(--gray-color);
+  font-size: 14px;
+  padding-left: 16px;
+  padding-top: 11px;
+  letter-spacing: 0.07px;
+}
+
+
+
