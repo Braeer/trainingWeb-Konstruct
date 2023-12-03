@@ -26,6 +26,12 @@ img {
 h1, h2, h3, h4, h5, h6, p, ul, input {
   padding: 0;
   margin: 0;
+  list-style: none;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 /* font-family: 'Bebas Neue', sans-serif;
 font-family: 'Open Sans', sans-serif; */
@@ -361,6 +367,110 @@ body {
   padding-left: 16px;
   padding-top: 11px;
   letter-spacing: 0.07px;
+}
+
+
+
+.footer {
+  background-color: #141A20;
+}
+.footer__title-flex {
+  display: flex;
+  padding-top: 41px;
+  padding-bottom: 50px;
+}
+.footer__title-item-1 {
+  width: 250px;
+  height: 148px;
+  margin-right: 71px;
+}
+.footer__item-1__h5 {
+  color: #FFF;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.846px;
+  padding-bottom: 19px;
+}
+.footer__item-1__logo {
+
+}
+.footer__item-1__p {
+  padding-top: 15px;
+  color: #FFF;
+  font-size: 11px;
+  line-height: 19px; /* 172.727% */
+  letter-spacing: 0.85px;
+}
+.footer__title-item-2 {
+  width: 262px;
+  height: 150px;
+  margin-right: 55px;
+}
+.footer__item-2__h5 {
+  color: #FFF;
+  font-size: 11px;
+  padding-bottom: 10px;
+  letter-spacing: 0.846px;
+}
+.footer__item-2__blocks {
+  display: flex;
+}
+.footer__item-2__block-1, .footer__item-2__block-2, .footer__item-2__block-3  {
+  color: #FFF;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 25px; /* 227.273% */
+  letter-spacing: 0.846px;
+}
+.footer__item-2__block-1 {
+  margin-right: 33px;
+}
+.footer__item-2__block-item {
+}
+.footer__item-2__block-2 {
+  margin-right: 37px;
+}
+
+.footer__title-item-3 {
+
+}
+.footer__item-3__p_name {
+  color: #FFF;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.846px;
+  margin-bottom: 15px;
+}
+.footer__item-3__p_andress, .footer__item-3__p_number, .footer__item-3__p_email {
+  color: #FFF;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px; /* 145.455% */
+  letter-spacing: 0.846px;
+}
+.footer__title-item-4 {
+  width: 87px;
+  height: 13px;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.footer__item-4__icons {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__item-4__icon {
+
+}
+.footer__f {
+  background-color: #171819;
+  padding-top: 10px;
+  padding-bottom: 23px;
+}
+.footer__f__p {
+  color: #FFF;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0.846px;
 }
 
 

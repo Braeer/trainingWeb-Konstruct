@@ -24,19 +24,21 @@
     <div class="container">
       <div class="navbar__flex">
         <div class="navbar__logo"><img src="images/projeco-logo-black.svg" alt=""></div>
+        <nav>
         <ul class="navbar__menu">
-          <li class="header__item">Home</li>
-          <li class="header__item">About</li>
-          <li class="header__item">Services</li>
-          <li class="header__item">Work</li>
-          <li class="header__item">Contact</li>
+          <li class="header__item"><a href="#">Home</a></li>
+          <li class="header__item"><a href="#about">About</a></li>
+          <li class="header__item"><a href="#services">Services</a></li>
+          <li class="header__item"><a href="#projects">Work</a></li>
+          <li class="header__item"><a href="#newsletter">Contact</a></li>
         </ul>
+      </nav>
       </div>
     </div>
   </section>
 
 
-  <section class="about">
+  <section class="about" id="about">
     <div class="container">
       <h2 class="about__h2">OUR STORY</h2>
       <div class="about__line"></div>
@@ -61,7 +63,7 @@
   </section>
 
 
-  <section class="services">
+  <section class="services" id="services">
     <div class="container">
       <div class="services__flex">
         <div class="services__logo-h3">
@@ -71,7 +73,7 @@
         <p class="services__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
         <button class="services__btn"><p>ALL SERVICES</p></button>
       </div>
-      <div class="services__grid">
+      <div class="services__grid" id="projects">
         <div class="services__item">
           <div class="services__item-img"><img src="images/bitmap2-1.png" alt=""></div>
           <h2 class="services__item-h2">PROJECT AND CONSTRUCTION MANAGEMENT</h2>
@@ -102,7 +104,7 @@
   </section>
 
 
-  <section class="newsletter">
+  <section class="newsletter" id="newsletter">
     <div class="container">
       <div class="newsletter__flex">
         <h1 class="newsletter__h1">Newsletter Signup</h1>
@@ -116,6 +118,59 @@
     </div>
   </section>
 
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__title-flex">
+        <div class="footer__title-item-1">
+          <h5 class="footer__item-1__h5">COMPANY</h5>
+          <div class="footer__item-1__logo"><img src="images/projeco-logo.svg" alt=""></div>
+          <p class="footer__item-1__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+        </div>
+        <div class="footer__title-item-2">
+          <h5 class="footer__item-2__h5">LINKS</h5>
+          <div class="footer__item-2__blocks">
+            <nav>
+              <ul class="footer__item-2__block-1">
+                <li class="footer__item-2__block-item"><a href="#">HOME</a></li>
+                <li class="footer__item-2__block-item"><a href="#about">ABOUT</a></li>
+                <li class="footer__item-2__block-item"><a href="#services">SERVICES</a></li>
+                <li class="footer__item-2__block-item"><a href="#projects">PROJECTS</a></li>
+                <li class="footer__item-2__block-item"><a href="#newsletter">CONTACT US</a></li>
+              </ul>
+            </nav>
+            <ul class="footer__item-2__block-2">
+              <li class="footer__item-2__block-item">FAQ</li>
+              <li class="footer__item-2__block-item">TERMS</li>
+              <li class="footer__item-2__block-item">CAREERS</li>
+            </ul>
+            <ul class="footer__item-2__block-3">
+              <li class="footer__item-2__block-item">BLOG</li>
+              <li class="footer__item-2__block-item">PARTNERS</li>
+              <li class="footer__item-2__block-item">NEWS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__title-item-3">
+          <p class="footer__item-3__p_name">CONTACT US</p>
+          <p class="footer__item-3__p_andress">213 Baker Street <br>Oriel City Kounty <br>7000 KNW,<br>Kountry Name </p>
+          <p class="footer__item-3__p_number"><br>+23 994 233 4022</p>
+          <p class="footer__item-3__p_email"><br>info@konstruct.com</p>
+        </div>
+        <div class="footer__title-item-4">
+          <div class="footer__item-4__icons">
+            <img src="images/icon.png" alt="" class="footer__item-4__icon">
+            <img src="images/icon2.png" alt="" class="footer__item-4__icon">
+            <img src="images/icon3.png" alt="" class="footer__item-4__icon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section class="footer__f">
+    <p class="footer__f__p">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+  </section>
 
 </body>
 </html>
