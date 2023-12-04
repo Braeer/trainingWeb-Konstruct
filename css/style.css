@@ -45,6 +45,7 @@ body {
 .header {
   background-image: url(../images/bg.png);
   background-size: cover;
+  background-repeat: round;
 }
 .header__logo {
   margin: 0 auto;
