@@ -40,12 +40,12 @@ body {
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   min-width: 320px;
 }
 .header {
   background-image: url(../images/bg.png);
-  background-repeat: no-repeat;
+  background-repeat: round;
 }
 .header__logo {
   margin: 0 auto;
@@ -280,6 +280,7 @@ body {
 
 .get-in-touch {
   background-image: url(../images/bg2.png);
+  background-repeat: round;
   height: 498px;
 }
 .get-in-touch .container {
@@ -478,6 +479,9 @@ body {
 
 
 @media screen and (max-width: 1280px) {
+  .get-in-touch, .header {
+    background-repeat: no-repeat;
+  }
   .about__flex {
     flex-wrap: wrap;
     justify-content: center;
